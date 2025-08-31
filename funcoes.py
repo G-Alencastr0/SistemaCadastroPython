@@ -2,6 +2,7 @@ from aluno import Aluno
 
 
 def cadastrar(alunos):
+    print('----- CADASTRO DE ALUNOS -----')
     try:
         matricula = int(input('Digite a matrícula:'))
 
@@ -31,6 +32,7 @@ def cadastrar(alunos):
 
 
 def listar(alunos):
+    print('----- LISTA DE ALUNOS -----')
     if not alunos: #se não tiver alunos
         print('Nenhum aluno cadastrado ainda...')
         return
@@ -45,6 +47,7 @@ def listar(alunos):
 
 
 def alterar(alunos):
+    print('----- ALTERAÇÃO DE CADASTRO DE ALUNOS -----')
     try:
         matricula = int(input('Digite a matrícula do aluno que deseja alterar o cadastro: '))
 
@@ -75,6 +78,7 @@ def alterar(alunos):
 
 
 def excluir(alunos):
+    print('----- EXCLUSÃO DE CADASTRO DE ALUNOS -----')
     try:
         matricula = int(input('Digite a matrícula do aluno que deseja excluir o cadastro: ')) 
 

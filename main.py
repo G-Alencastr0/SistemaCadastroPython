@@ -28,4 +28,4 @@ while True:
             print('---> Saindo do sistema...')
             break
         case _:  #pega opções não listadas
-            print('Opção inválida! Tente novamente.')                
+            print('Opção inválida! Tente novamente.') 
